@@ -9,6 +9,9 @@
 
 This repository contains resources to learn Low Level Design (LLD) / Object Oriented Design (OOD) in JavaScript and prepare for interviews.
 
+> [!NOTE]
+> This is a JavaScript-focused fork of the original [awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design) by [Ashish Pratap Singh](https://github.com/ashishps1).
+
 👉 For a better and more comprehensive experience, checkout the [LLD page at AlgoMaster.io](https://algomaster.io/learn/lld)
 
 ## 🧱 OOP Fundamentals in JavaScript

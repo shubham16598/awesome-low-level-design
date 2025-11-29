@@ -5,24 +5,24 @@
   <a href="https://blog.algomaster.io/">Join Free Newsletter</a>
 </p>
 
-This repository contains resources to learn Low Level Design (LLD) / Object Oriented Design (OOD) and prepare for interviews.
+# Awesome Low Level Design in JavaScript
+
+This repository contains resources to learn Low Level Design (LLD) / Object Oriented Design (OOD) in JavaScript and prepare for interviews.
 
 👉 For a better and more comprehensive experience, checkout the [LLD page at AlgoMaster.io](https://algomaster.io/learn/lld)
 
-## 🧱 OOP Fundamentals
-- [Classes and Objects](https://algomaster.io/learn/lld/classes-and-objects)
-- [Enums](https://algomaster.io/learn/lld/enums)
-- [Interfaces](https://algomaster.io/learn/lld/interfaces)
-- [Encapsulation](https://algomaster.io/learn/lld/encapsulation)
-- [Abstraction](https://algomaster.io/learn/lld/abstraction)
-- [Inheritance](https://algomaster.io/learn/lld/inheritance)
-- [Polymorphism](https://algomaster.io/learn/lld/polymorphism)
+## 🧱 OOP Fundamentals in JavaScript
+- [Classes and Objects](oop/javascript/classesandobjects/README.md)
+- [Encapsulation](oop/javascript/encapsulation/README.md)
+- [Inheritance](oop/javascript/inheritance/README.md)
+- [Polymorphism](oop/javascript/polymorphism/README.md)
+- [Abstraction](oop/javascript/abstraction/README.md)
+- [Interfaces](oop/javascript/interfaces/README.md)
 
 ## 🔗 Class Relationships
-- [Association](https://algomaster.io/learn/lld/association)
-- [Aggregation](https://algomaster.io/learn/lld/aggregation)
-- [Composition](https://algomaster.io/learn/lld/composition)
-- [Dependency](https://algomaster.io/learn/lld/dependency)
+- [Association](oop/javascript/association/README.md)
+- [Aggregation](oop/javascript/aggregation/README.md)
+- [Composition](oop/javascript/composition/README.md)
 
 ## 🧭 Design Principles
 - [DRY Principle](https://algomaster.io/learn/lld/dry)
@@ -31,20 +31,35 @@ This repository contains resources to learn Low Level Design (LLD) / Object Orie
 - [SOLID Principles with Pictures](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)
 - [SOLID Principles with Code](https://blog.algomaster.io/p/solid-principles-explained-with-code)
 
-## 🧩 Design Patterns
+## 🧩 Design Patterns in JavaScript
 
-| **Creational Patterns**                                                       | **Structural Patterns**                                         | **Behavioral Patterns**                                                               |
-| ----------------------------------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| [Singleton](https://algomaster.io/learn/lld/singleton)            | [Adapter](https://algomaster.io/learn/lld/adapter)     | [Iterator](https://algomaster.io/learn/lld/iterator)                         |
-| [Factory Method](https://algomaster.io/learn/lld/factory-method)     | [Bridge](https://algomaster.io/learn/lld/bridge)       | [Observer](https://algomaster.io/learn/lld/observer)                         |
-| [Abstract Factory](https://algomaster.io/learn/lld/abstract-factory) | [Composite](https://algomaster.io/learn/lld/composite) | [Strategy](https://algomaster.io/learn/lld/strategy)                         |
-| [Builder](https://algomaster.io/learn/lld/builder)                   | [Decorator](https://algomaster.io/learn/lld/decorator) | [Command](https://algomaster.io/learn/lld/command)                           |
-| [Prototype](https://algomaster.io/learn/lld/prototype)               | [Facade](https://algomaster.io/learn/lld/facade)       | [State](https://algomaster.io/learn/lld/state)                               |
-|                                                                               | [Flyweight](https://algomaster.io/learn/lld/flyweight) | [Template Method](https://algomaster.io/learn/lld/template-method)           |
-|                                                                               | [Proxy](https://algomaster.io/learn/lld/proxy)         | [Visitor](https://algomaster.io/learn/lld/visitor)                           |
-|                                                                               |                                                                 | [Mediator](https://algomaster.io/learn/lld/mediator)                         |
-|                                                                               |                                                                 | [Memento](https://algomaster.io/learn/lld/memento)                           |
-|                                                                               |                                                                 | [Chain of Responsibility](https://algomaster.io/learn/lld/chain-of-responsibility) |
+### Creational Patterns
+- [Abstract Factory](design-patterns/Javascript/Creational%20Pattern/AbstractFactory%20Design%20Pattern/README.md)
+- [Builder](design-patterns/Javascript/Creational%20Pattern/Builder%20Design%20Pattern/README.md)
+- [Factory Method](design-patterns/Javascript/Creational%20Pattern/Factory%20Design%20Pattern/README.md)
+- [Prototype](design-patterns/Javascript/Creational%20Pattern/Prototype%20Design%20Pattern/README.md)
+- [Singleton](design-patterns/Javascript/Creational%20Pattern/Singleton%20Design%20%20Pattern/README.md)
+
+### Structural Patterns
+- [Adapter](design-patterns/Javascript/Structural%20Pattern/Adapter%20Design%20Pattern/README.md)
+- [Bridge](design-patterns/Javascript/Structural%20Pattern/Bridge%20Design%20Pattern/README.md)
+- [Composite](design-patterns/Javascript/Structural%20Pattern/Composite%20Design%20Pattern/README.md)
+- [Decorator](design-patterns/Javascript/Structural%20Pattern/Decorator%20Design%20Pattern/README.md)
+- [Facade](design-patterns/Javascript/Structural%20Pattern/Facade%20Design%20Pattern/README.md)
+- [Flyweight](design-patterns/Javascript/Structural%20Pattern/Flyweight%20Design%20Pattern/README.md)
+- [Proxy](design-patterns/Javascript/Structural%20Pattern/Proxy%20Design%20Pattern/README.md)
+
+### Behavioral Patterns
+- [Chain of Responsibility](design-patterns/Javascript/Behavioral%20Pattern/Chain%20of%20Responsibilites/README.md)
+- [Command](design-patterns/Javascript/Behavioral%20Pattern/Command%20Design%20Pattern/README.md)
+- [Iterator](design-patterns/Javascript/Behavioral%20Pattern/Iterator%20Design%20Pattern/README.md)
+- [Mediator](design-patterns/Javascript/Behavioral%20Pattern/Mediator%20Design%20Pattern/README.md)
+- [Memento](design-patterns/Javascript/Behavioral%20Pattern/Memento%20Design%20Pattern/README.md)
+- [Observer](design-patterns/Javascript/Behavioral%20Pattern/Observer%20Design%20Pattern/README.md)
+- [State](design-patterns/Javascript/Behavioral%20Pattern/State%20Design%20Pattern/README.md)
+- [Strategy](design-patterns/Javascript/Behavioral%20Pattern/Strategy%20Design%20Pattern/README.md)
+- [Template Method](design-patterns/Javascript/Behavioral%20Pattern/Template%20Design%20Pattern/README.md)
+- [Visitor](design-patterns/Javascript/Behavioral%20Pattern/Visitor%20Design%20Pattern/README.md)
 
 ## 🗂️ UML
 - [Class Diagram](https://blog.algomaster.io/p/uml-class-diagram-explained-with-examples)
@@ -58,7 +73,6 @@ This repository contains resources to learn Low Level Design (LLD) / Object Orie
 
 ## 💻 Low Level Design Interview Problems
 ### Easy Problems
-
 - [Design Parking Lot](problems/parking-lot.md)
 - [Design Stack Overflow](problems/stack-overflow.md)
 - [Design a Vending Machine](problems/vending-machine.md)
@@ -68,7 +82,6 @@ This repository contains resources to learn Low Level Design (LLD) / Object Orie
 - [Design a Task Management System](problems/task-management-system.md)
 
 ### Medium Problems
-
 - [Design ATM](problems/atm.md)
 - [Design LinkedIn](problems/linkedin.md)
 - [Design LRU Cache](problems/lru-cache.md)
@@ -86,7 +99,6 @@ This repository contains resources to learn Low Level Design (LLD) / Object Orie
 - [Design a Concert Ticket Booking System](problems/concert-ticket-booking-system.md)
 
 ### Hard Problems
-
 - [Design CricInfo](problems/cricinfo.md)
 - [Design Splitwise](problems/splitwise.md)
 - [Design Chess Game](problems/chess-game.md)
